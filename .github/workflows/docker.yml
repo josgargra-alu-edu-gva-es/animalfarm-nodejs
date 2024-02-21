@@ -1,3 +1,4 @@
+yaml
 name: Publish Docker Images
 
 on:
@@ -39,5 +40,5 @@ jobs:
          file: ./Dockerfile
          push: true
          tags: | #
-           josgargra-alu-edu-gva-es/animalfarm-js: latest
-           ghcr.io/josgargra-alu-edu-gva-es/animalfarm-nodejs: latest
+           jamtur01/animal-farm-nodejs:latest
+           ghcr.io/jamtur01/animal-farm-nodejs:latest
