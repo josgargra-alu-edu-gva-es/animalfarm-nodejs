@@ -33,4 +33,4 @@ jobs:
          file: ./Dockerfile
          push: true
          tags: | #
-           / animalfarm-js: latest
+           /animalfarm-js: latest
